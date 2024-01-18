@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+}
+
+p.one{
+    margin-left: 40px;
+    margin-right: 500px;
+    color: white;
+    font-size: 50px;
+    margin-bottom:10px;
+}
+p.two{
+    margin-left: 40px;
+    margin-right: 500px;
+    color:white;
+    font-size: 30px;
+}
+p.three{
+    margin-left: 40px;
+    color: white;
+    background-color: blue;
+    border-style:solid;
+    width: 300px;
+    height: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.main{
+    margin: 0%;
+    background-image: url(car.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 1210px;
+    padding:30px;
+}
+ul{
+   margin-top:-10px;
+   padding:0;
+   margin-left:50px ;
+   
+}
+li{
+    display:inline;
+}
+li a:hover{
+   color:black;
+    text-decoration:underline;
+}
+li a{
+    background-attachment:black;
+    text-decoration: none;
+    color:gray;
+    font-style: normal;
+    font-size:20px;
+    padding:10px;
+    width:50px;
+}

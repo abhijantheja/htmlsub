@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    display: flex;
+    height: 70px;
+
+}
+
+.navi {
+    display: flex;
+    margin-top: 30px;
+    font-family: bmwTypeNextWeb, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    width: 600px;
+}
+
+
+
+.navi li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.navi li a {
+    color: #666;
+    text-decoration: none;
+
+}
+
+.navi li a:hover {
+    color: #262626;
+    text-decoration-line: overline;
+}
+
+.logo {
+    display: flex;
+    margin-left: 200px;
+}
+
+.logo li {
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.logo a:hover {
+    background-color: blue;
+}
+
+.bmw {
+    background-image: url(images/Car.jpg);
+    background-size: cover;
+    font-family: bmwTypeNextWeb, Arial, Helvetica, sans-serif;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+.bmw_para {
+    margin-left:80px;
+    margin-right:500px;
+    padding-top:80px;
+}
+
+.L1 {
+   
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+    height:40px;
+}
+
+.L2 {
+    font-size: 25px;
+    font-weight:20px;
+}
+
+.L3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    width:40%;
+    height:40px;
+    padding-bottom:10px;
+    padding-top:4px;
+    background-color: #1c69d4;
+}
